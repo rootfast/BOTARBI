@@ -144,7 +144,7 @@ contract RouterV2 {
     }
 
     function avaxSwapAddress() public pure returns (address) {
-        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D
+        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
     }
 
     //The arbitrage converts BUSD for BNB using BUSD/BNB PancakeSwap, and then immediately converts BNB back to 3,148.39 BNB using BNB/BUSD BakerySwap.
